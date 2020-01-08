@@ -4,7 +4,7 @@ import authors from './data';
 function AuthorCard(){
     return (
         authors.map(author => (
-            <div className="col-lg-4 col-md-6 col-12" key={author.name}>
+            <div className="col-lg-4 col-md-6 col-12" key={author.first_name}>
             <div className="card">
               <div className="image">
                 <img
