@@ -1,12 +1,12 @@
 import React from "react";
 import Sidebar from "./Sidebar";
-import AuthorList from "./AuthorList";
+import Content from './Content';
 function App() {
   return (
     <div id="app" className="container-fluid">
       <div className="row">
       <Sidebar/>
-      <AuthorList />
+      <Content/>
       </div>
     </div>
   );
